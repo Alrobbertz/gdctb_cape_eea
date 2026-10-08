@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Configuration file for the Sphinx documentation builder.
 #
@@ -108,24 +107,24 @@ html_theme = "pydata_sphinx_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-#html_logo = "logo/cape_eea_logo.png"
-#html_favicon = "logo/favicon.ico"
-#html_css_files = [
+# html_logo = "logo/cape_eea_logo.png"
+# html_favicon = "logo/favicon.ico"
+# html_css_files = [
 #    "css/custom.css",
-#]
+# ]
 
 html_theme_options = {
-   "announcement": "This package is under active development.  If you'd like to contribute, check out our <a href='https://github.com/GDC-Trailblazer/gdctb_cape_eea'>GitHub repository</a>.",
-   "use_edit_page_button": True,
-   "back_to_top_button": True,
+    "announcement": "This package is under active development.  If you'd like to contribute, check out our <a href='https://github.com/GDC-Trailblazer/gdctb_cape_eea'>GitHub repository</a>.",
+    "use_edit_page_button": True,
+    "back_to_top_button": True,
 }
 
 html_context = {
-	"display_github": True,
-	"github_user": "GDCTB",
-	"github_repo": "gdctb_cape_eea",
-	"github_version": "main",
-	"conf_py_path": "/docs/",
+    "display_github": True,
+    "github_user": "GDCTB",
+    "github_repo": "gdctb_cape_eea",
+    "github_version": "main",
+    "conf_py_path": "/docs/",
 }
 
 # Render inheritance diagrams in SVG

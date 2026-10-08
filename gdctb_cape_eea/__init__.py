@@ -10,7 +10,7 @@ except ImportError:
     version_tuple = (0, 0, "unknown version")
 
 import swxsoc
-from swxsoc import print_config  # noqa: E402
+from swxsoc import print_config
 
 # Force the mission environment variable and reconfigure regardless of import order
 os.environ["SWXSOC_MISSION"] = "GDCTB"
@@ -28,9 +28,7 @@ _package_directory = Path(__file__).parent
 _data_directory = _package_directory / "data"
 _test_files_directory = _package_directory / "data" / "test"
 
-log.debug(
-    f"gdctb_cape_eea version: {__version__}"
-)
+log.debug(f"gdctb_cape_eea version: {__version__}")
 
 MISSION_NAME = "GDCTB"
 INSTRUMENT_NAME = "cape_eea"
