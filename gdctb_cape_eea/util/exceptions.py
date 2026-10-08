@@ -7,15 +7,16 @@ but rather in the particular package.
 This code is based on that provided by SunPy see
     licenses/SUNPY.rst
 """
+
 import warnings
 
 __all__ = [
-    "cape_eeaWarning",
-    "cape_eeaUserWarning",
     "cape_eeaDeprecationWarning",
     "cape_eeaPendingDeprecationWarning",
-    "warn_user",
+    "cape_eeaUserWarning",
+    "cape_eeaWarning",
     "warn_deprecated",
+    "warn_user",
 ]
 
 
